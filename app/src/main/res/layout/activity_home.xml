@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.hms.ads.nativead.NativeView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".HomeActivity"
+   >
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+                android:background="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+   <RelativeLayout
+       android:id="@+id/root_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <com.huawei.hms.ads.banner.BannerView
+           android:id="@+id/hw_banner_view"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           hwads:adId="@string/banner_ad_id"
+           hwads:bannerSize="BANNER_SIZE_360_57" />
+
+       <Button
+           android:id="@+id/map"
+           android:backgroundTint="@color/colorPrimary"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_centerInParent="true"
+           android:text="Map"/>
+
+
+
+
+
+   </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/drawer_view"
+            app:headerLayout="@layout/nav_header"
+            android:fitsSystemWindows="true"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    </com.huawei.hms.ads.nativead.NativeView>
+
+
+
+
+

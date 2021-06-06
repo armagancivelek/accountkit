@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/ads">
+
+
+        <item
+            app:showAsAction="never"
+            android:id="@+id/rewardedAds"
+            android:title="Rewarded Ads"
+            />
+
+
+    </group>
+    <item android:id="@+id/signOut"
+        app:showAsAction="always"
+        android:title="Sign Out"
+        android:icon="@drawable/signout"/>
+
+
+    <item
+        android:id="@+id/nativeAds"
+        android:title="Native Ads"
+        />
+
+
+</menu>

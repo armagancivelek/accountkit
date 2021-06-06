@@ -1,0 +1,47 @@
+package com.armagancivelek.accountkit;
+
+public interface HAEventType {
+    String CREATEPAYMENTINFO = "$CreatePaymentInfo";
+    String ADDPRODUCT2CART = "$AddProduct2Cart";
+    String ADDPRODUCT2WISHLIST = "$AddProduct2WishList";
+    String STARTAPP = "$StartApp";
+    String STARTCHECKOUT = "$StartCheckout";
+    String VIEWCAMPAIGN = "$ViewCampaign";
+    String VIEWCHECKOUTSTEP = "$ViewCheckoutStep";
+    String WINVIRTUALCOIN = "$WinVirtualCoin";
+    String COMPLETEPURCHASE = "$CompletePurchase";
+    String OBTAINLEADS = "$ObtainLeads";
+    String JOINUSERGROUP = "$JoinUserGroup";
+    String COMPLETELEVEL = "$CompleteLevel";
+    String STARTLEVEL = "$StartLevel";
+    String UPGRADELEVEL = "$UpgradeLevel";
+    String SIGNIN = "$SignIn";
+    String SIGNOUT = "$SignOut";
+    String SUBMITSCORE = "$SubmitScore";
+    String CREATEORDER = "$CreateOrder";
+    String REFUNDORDER = "$RefundOrder";
+    String DELPRODUCTFROMCART = "$DelProductFromCart";
+    String SEARCH = "$Search";
+    String VIEWCONTENT = "$ViewContent";
+    String UPDATECHECKOUTOPTION = "$UpdateCheckoutOption";
+    String SHARECONTENT = "$ShareContent";
+    String REGISTERACCOUNT = "$RegisterAccount";
+    String CONSUMEVIRTUALCOIN = "$ConsumeVirtualCoin";
+    String STARTTUTORIAL = "$StartTutorial";
+    String COMPLETETUTORIAL = "$CompleteTutorial";
+    String OBTAINACHIEVEMENT = "$ObtainAchievement";
+    String VIEWPRODUCT = "$ViewProduct";
+    String VIEWPRODUCTLIST = "$ViewProductList";
+    String VIEWSEARCHRESULT = "$ViewSearchResult";
+    String UPDATEMEMBERSHIPLEVEL = "$UpdateMembershipLevel";
+    String FILTRATEPRODUCT = "$FiltrateProduct";
+    String VIEWCATEGORY = "$ViewCategory";
+    String UPDATEORDER = "$UpdateOrder";
+    String CANCELORDER = "$CancelOrder";
+    String COMPLETEORDER = "$CompleteOrder";
+    String CANCELCHECKOUT = "$CancelCheckout";
+    String OBTAINVOUCHER = "$ObtainVoucher";
+    String CONTACTCUSTOMSERVICE = "$ContactCustomService";
+    String RATE = "$Rate";
+    String INVITE = "$Invite";
+}

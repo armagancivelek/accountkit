@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+
+    <string name="push_notification">Push Notification</string>
+    <string name="data_message">Data Message</string>
+    <string name="gdgs_are">GDGs Are…</string>
+    <string name="gdg_description_long">GDGs are local groups of developers who are specifically interested in Google
+        products and APIs. Each local group is called a GDG chapter and can host a variety of technical activities for
+        developers - from just a few people getting together to watch our latest videos, to large gatherings with demos
+        and tech talks, to hackathons. Google Developers supports and recognizes GDG chapters, but doesn’t own or manage
+        them.
+    </string>
+    <string name="about_google_developer_groups">About Google Developer Groups</string>
+    <string name="gdg_description_bullets">️Run by passionate individuals in local developer communities\n
+        ️A group to share ideas and network with fellow developers \n
+        ️A place to learn about Google technologies and development tools \n
+        Open to and free for all interested
+    </string>
+    <string name="waiting_for_location_and_network">Waiting for location and network result.\n\n If running on an
+        emulator open the Maps app to enable location services.
+    </string>
+    <string name="stage_image_description">Photo from stage from a devfest</string>
+    <string name="submit_button_description">Button to submit form</string>
+    <string name="form_name_description">enter your name</string>
+    <string name="motivation">Tell us a bit more about why do you want to start a GDG</string>
+    <string name="your_name_label">Your name</string>
+    <string name="email_label">e-mail</string>
+    <string name="city_label">city</string>
+    <string name="country_label">country</string>
+    <string name="region_label">region</string>
+    <string name="enter_motivation">Please enter your motivation in 1-2 sentences</string>
+    <string name="submitted">Submitted, no need to submit again</string>
+    <string name="done">Done</string>
+    <string name="submit">Submit</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="banner_ad_id">testw6vs28auh3</string>
+</resources>
